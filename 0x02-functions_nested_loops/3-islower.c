@@ -2,6 +2,7 @@
 
 /**
  * _islower - checks for lowercase character
+ * @c: Argument of teh function
  * Return: 1 if success, 0 otherwise
  */
 
