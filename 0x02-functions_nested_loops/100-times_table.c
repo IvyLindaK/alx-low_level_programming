@@ -19,9 +19,7 @@ void print_times_table(int n)
 			for (mul = 1; mul <= n; mul++)
 			{
 				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(' ');
+				_putchar('\t');
 				res = dig * mul;
 				if (res >= 100)
 				{
