@@ -21,7 +21,6 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(' ');
 				res = dig * mul;
 				if (res >= 100)
 				{
