@@ -2,7 +2,7 @@
 
 /**
  * _puts - prints string followed by new line
- * @str - Argument
+ * @str: Argument
  */
 
 void _puts(char *str)
@@ -14,4 +14,3 @@ void _puts(char *str)
 	}
 	_putchar('\n');
 }
-	
