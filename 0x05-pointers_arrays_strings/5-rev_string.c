@@ -3,6 +3,7 @@
 /**
  * rev_string - reverses string
  * @s: String argument
+ * _strlen - length 
  */
 
 void rev_string(char *s)
@@ -15,7 +16,7 @@ void rev_string(char *s)
 	{
 		temp = *(s + i);
 		*(s + i) = *(s + len - i - 1);
-		*(s + len - i -1) = temp;
+		*(s + len - i -1 ) = temp;
 	}
 }
 
